@@ -19,3 +19,4 @@ var people = ['Greg', 'Mary', 'Devon', 'James'];
 // 9. Write the command that gives the indexOf where "Foo" is located (this should return -1).
 
 // 10. Redefine the people variable with the value you started with. Using the splice command, remove "Devon" from the array and add "Elizabeth" and "Artie". Your array should look like this when you are done ["Greg", "Mary", "Elizabeth", "Artie", "James"].
+ 
