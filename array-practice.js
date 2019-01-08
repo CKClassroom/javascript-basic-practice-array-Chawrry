@@ -5,13 +5,13 @@ people.forEach(function(person) {
     console.log(person);
 });
 // 2. Write the command to remove "Greg" from the array.
-people.splice(people.indexOf('Greg'), 1);
+people.shift();
 console.log(people);
 // 3. Write the command to remove "James" from the array.
-people.splice(people.lastIndexOf('James'), 1);
+people.pop();
 console.log(people);
 // 4. Write the command to add "Matt" to the front of the array.
-people.splice(0, 0, 'Matt');
+people.unshift('Matt');
 console.log(people);
 // 5. Write the command to add your name to the end of the array.
 people.push('La_Ba');
@@ -23,7 +23,7 @@ for (let idx in people) {
     console.log(person);
 }
 // 7. Write the command to make a copy of the array using slice. The copy should NOT include "Mary" or "Matt".
-var copyArray = people.slice(0).slice(2);
+var copyArray = people.slice(2);
 console.log(copyArray);
 // 8. Write the command that gives the indexOf where "Mary" is located.
 console.log(people.indexOf('Mary'));
